@@ -1,0 +1,423 @@
+    
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+      height: 100vh;
+      width: 100vw;
+      background-color: #F8F4F2;
+    }
+
+    .container{
+        width: 100vw;
+        height: 80%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;      
+    }
+
+    .header{
+        width: 100vw;
+        height: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .logo{
+        display: flex;
+        align-items: center;
+    }
+
+    .logo-1{
+        background-image: url("../Test91/img/Logo.png");
+        width: 5rem;
+        height: 4.8rem;
+        margin-left: 4rem;
+        margin-right: 0;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .logo-2{
+        height: 4.8rem;
+        line-height: 4.8rem;
+        font-weight: bold;
+        font-size: 1.6rem;
+    }
+
+    .logo-footer{
+        display: none;
+    }
+    
+    .login{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 7.5rem;
+    }
+
+    .text-input{
+        position: relative;
+        min-width: 4.5rem;
+        margin-right: 1.6rem;
+        height: 4.8rem;
+        font-weight: bold;
+    }
+
+    .text-input>a{
+        position: absolute;
+        width: fit-content;
+        bottom: -0.5rem;
+        left: 0;
+        text-decoration: underline;
+    }
+
+    .text-input>.txt{
+        position: absolute;
+        top: -24px;
+        line-height: 16px;
+    }
+    .text-input>input{
+        min-width: 25rem;
+        border-radius: 8px; 
+        line-height: 16px;
+        padding: 1.2rem 2rem 1.2rem 16px;
+        border: 1px solid #C1A28B;
+        display: inline-block;
+    }
+    .text-input > i{
+        position: absolute;
+        line-height: 4rem;
+        margin-right: 0.6rem;
+        right: 0;
+    }
+    .login-btn{
+        line-height: 3.6rem;
+        min-width: 12rem;
+        height: 3.6rem;
+        margin-bottom: 1.2rem;
+        background-image: linear-gradient(270deg, #FB6564 0%, #A03CEA 100%);
+        border-radius: 0.6rem;
+        text-align: center;
+        background-repeat: no-repeat;   
+        outline: none;
+        color: #FFFFFF;
+
+    }
+
+    
+    .main{
+        width: 100%;
+        height: 70%;
+        background-color: #F8F4F2;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 3rem;
+    }
+
+ 
+    .main-right, .main-left{
+        display: flex;
+        flex-direction: column;
+        width: 32rem;
+        height: 21rem;
+        justify-content: flex-start;
+    }
+
+    .main-left-text>h1{
+        font-weight: bold;
+        line-height: 3.2rem;
+        font-size: 3.2rem;
+        padding: 0 0 1.6rem 0;
+        margin: 0px;
+    }
+
+    .main-left-text>h3, .main-right>h3{
+        font-weight: normal;
+        margin: 0px;
+        font-size: 1.3rem;
+        line-height: 1.3rem;
+    }
+
+    .main-left-recent{
+        margin-top: 40px;
+    }
+
+    .main-left-recent-list{
+        margin-top: 24px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .recent-item{
+        width: 156px;
+        height: 158px;
+        border-radius: 16px;
+        margin-right: 16px;
+        border: 1px solid #3C2C20;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .recent-avt{
+        width: 80px;
+        height: 80px;
+        border-radius: 5px;
+        background-image: url("./img/Ellipse\ 17.png");
+        margin-bottom: 16px;
+        background-repeat: no-repeat;
+    }
+
+    .recent-add{
+        background-image: url("./img/Frame\ 29.png");
+    }
+
+    .recent-name{
+        line-height: 0.8rem;
+        font-size: 0.8rem;
+    }
+
+    .main-right-social{
+        margin-top: 3.2rem;
+        width: 25rem;
+        height: 10rem;
+    }
+    .signup-btn{
+        width: 22.8rem;
+        background-image: linear-gradient(270deg, #FB6564 0%, #A03CEA 100%);
+        background-size: 100% auto;
+        border-radius: 8px;
+        text-align: center;
+        outline: none;
+        line-height: 24px;
+        padding: 16px;
+        color: #FFFFFF;
+        font-weight: bold;
+        background-position: 100% auto;
+    }
+
+    .main-right>h1{
+        font-weight: bold;
+        line-height: 2rem;
+        font-size: 2rem;
+        padding: 0 0 1.3rem 0;
+        margin: 0px;
+    }
+
+    .main-right h4{
+        text-align: center;
+        margin-top: 24px;
+        font-weight: initial;
+        
+    }
+
+    .social-media-btn{
+        margin-top: 16px;
+        height: 2.4rem;
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.8rem;
+        line-height: 2.4rem;
+    }
+
+    .social-media-icon{
+        border: 1px #AFA2C3 solid;
+        width: 10.8rem;
+        text-align: center;
+    }
+
+
+    
+    .footer{
+        width: 100%;
+        height: 20%;
+        background-image: linear-gradient(270deg, #FB6564 0%, #A03CEA 100%);
+        position: relative;
+        
+    }
+
+
+@media only screen and (min-width: 1025px) and (max-width: 1300px){
+   
+   
+
+    .logo-1{
+        margin-left: 0;
+    }
+
+    .logo-2{
+        height: 100%;
+    }
+    
+    .text-input>input {
+        min-width: 15rem;
+    }
+
+    .login-btn{
+        min-width: 6rem;
+    }
+}
+@media only screen and (min-width: 740px) and (max-width: 1024px) {
+    
+    html{
+        font-size: 50%;
+    }   
+    body{
+        padding-left: 1.6rem;
+        padding-right: 1.6rem;
+    }
+    .header{
+        justify-content: space-around;
+    }
+    .logo-1{
+        padding: 0;
+        margin: 0;
+    }
+    .logo-2{
+        width: 8rem;
+        font-size: 1.1rem;
+    }
+    .text-input>input{
+        width: 15rem;
+        min-width: 0;
+    }
+    .login-btn{
+        min-width: 6rem;
+    }
+}
+
+
+@media only screen and (max-width: 739px) {
+    html{
+        font-size: 30%;
+    }
+    .main-left, .logo{
+        display: none;
+    }
+
+    body{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content:  flex-end;
+    }
+
+
+    .footer{
+        height: 15%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        height: 85%;
+        width: 100%;
+    }
+
+    .main-right-social{
+        width: 100%;
+    }
+
+    .header{
+        height: 40%; 
+        display: flex;
+        flex-direction: column;
+    }
+    .main{
+        max-height: 60%;
+        padding: 0;
+        align-items: center;
+        height:fit-content;
+    }
+    .main-right{
+        width: 100%;
+    }
+    .login{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    .text-input{
+        width: 100%;
+        margin: 0px;
+        margin-top: 16px
+    }
+
+    .text-input>input{
+        width: 100%;
+        
+    }
+
+    .text-input>a{
+        bottom: -1.5rem;
+    }
+
+    .text-input[name="password"]{
+        margin-top: 32px;
+    }
+
+    .login-btn{
+        margin: 16px;
+        width: 100%;
+        margin-top: 32px;
+    }
+
+    .signup-btn{
+        width: 100%;
+    }
+
+    .logo-footer{
+        display: flex;
+        width: 100%;
+        height: 70%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo-3{
+        background-image: url("./img/White\ Logo.png");
+        width: 48px;
+        height: 48px;
+        margin-right: 16px;
+        background-repeat: no-repeat;
+    }
+
+    .logo-4{
+        height: 48px;
+        font-weight: bold;
+        color: white;
+        font-size: 1.6rem;
+        line-height: 48px;
+        
+    }
+    
+
+    
+    .decorate-1{
+        height: 30%;
+        width: 100%;
+        background-color: #F8F4F2;
+        border-top-left-radius: 50% 70%;
+        border-top-right-radius: 50% 70%;
+    }
+
+
+    
+
+}
+
+ 
